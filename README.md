@@ -39,6 +39,7 @@ To run the script, you'll need to install the required Python packages. Run the 
 
 ```bash
 pip install PyPDF2 ollama
+```
 
 ### Step 3: Install Ollama
 
@@ -53,7 +54,7 @@ After installing Ollama, you need to install the LLaMA 3.1 model. Run the follow
 
 ```bash
 ollama pull llama3.1:latest
-
+```
 ### Step 5:Usage
 Once you have installed the necessary dependencies and Ollama, you can run the script to extract car information from a PDF file and save it as a JSON file.
 
@@ -61,7 +62,7 @@ Ensure that the PDF file (car_models_report.pdf) is located in the same director
 Run the script: 
 ```bash
 python model_extractor_2.py
-
+```
 3.The JSON output will be saved to car_models_3.json in the same directory.
 
 ### License
